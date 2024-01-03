@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* [Config GERAL] */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    max-width: 100vw;
+    background-color: #abc4a541;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* [ClASSES] */
+.estrofe {
+    font-family: 'Sriracha', cursive;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    line-height: 2em;
+    padding-left: 24px;
+}
+
+.imagem {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.445);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#segunda { 
+    background-image: url('../images/background001.jpg');
+}
+
+div#quinta {
+    background-image: url('../images/background002.jpg');
+}
+
+div#segunda p, div#quinta p { 
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+
+/* CABECALHO */
+header {
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 3em;
+    font-family: 'Passion One', sans-serif;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+header p {
+    margin: 0;
+    font-size: .75em;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* MAIN */
+main {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: snow;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+/* RODAPE */
+footer {
+    margin: auto;
+    height: 28px;
+    line-height: 28px;
+    font-size: .75em;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
